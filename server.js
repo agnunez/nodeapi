@@ -16,6 +16,7 @@ app.get('/relay/:id', relay.findById);
 app.post('/relay', relay.addRelay);
 app.put('/relay/:id', relay.updateRelay);
 app.delete('/relay/:id', relay.deleteRelay);
+app.get('/relay/set/:id', relay.setRelay);
 
 app.listen(3000);
 console.log('Listening on port 3000...');
