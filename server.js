@@ -1,4 +1,4 @@
-
+/*** express mongodb REST API for K8090 and Arduino relay cards ***/ 
 
 var express = require('express'),
     relay = require('./routes/relay');
